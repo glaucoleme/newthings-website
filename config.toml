@@ -1,4 +1,4 @@
 languageCode = "pt-br"
 title = "Nthings"
-baseurl = "https://newthings.github.io"
+baseurl = "https://newthings.github.io/"
 theme = "hugo_theme_robust"
