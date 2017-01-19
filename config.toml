@@ -1,0 +1,4 @@
+languageCode = "pt-br"
+title = "Nthings"
+baseurl = "http://glaucooleme.gitlab.io"
+theme = "hugo_theme_robust"
