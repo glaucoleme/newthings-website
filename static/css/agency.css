@@ -285,36 +285,36 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
+    position: relative;
     color: #ebebeb;
-    background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: none;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
 }
 
-header:before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 112%;
-  content: " ";
-  position: absolute;
-  opacity: 0.1;
-  background: url(../img/patterns/gridtile.png);
+header::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/patterns/gridtile.png) repeat;
+    opacity: 0.1;
 }
 
 header:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 112%;
-  content: " ";
-  position: absolute;
-  background: rgba(20, 20, 20, 0.5);
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.5);
 }
 
 header .intro-text {
